@@ -24,7 +24,7 @@ You will now be directed to this page.
 The cluster remains in the 'Starting' state for about 10 - 15 minutes. Once the cluster is ready for use, the status will change to 'Waiting'. The cluster is now ready to use and we can move on to uploading our data to S3.
 
 
-##Uploadig data
+##Uploading data
 
 On your AWS console, from the Services dropdown on the dashboard, select S3 and you should see a S3 bucket here. It is the same bucket that is going to store logs for your cluster. Click on the S3 bucket, right click and select 'Create Folder'. Give this folder a name (e.g 'audio_data'). Click on the folder name, from the Actions drop down, select upload and assuming you have the audioscrobbler dataset stored locally on your machine, click on 'Add files' and upload these to the folder you just created on the bucket.
 
