@@ -1,6 +1,6 @@
-# CSDS-Spark_AWS_EMR_Assignment3
+#CSDS-Spark_AWS_EMR_Assignment3
 
-In this assignment, you will be running the same recommendation system that you built for AudioScrobbler Data but on a 3 node AWS-EMR cluster.
+In this assignment, you will be running the same recommendation system that you built for AudioScrobbler Data but on a 3-node AWS-EMR cluster.
 
 
 ##Setup
@@ -15,17 +15,28 @@ AWS offers an easy to use dashboard for creating and launching a cluster and sub
 ![SetupImage](http://i.imgur.com/arhxIA9.png)
 
 
-*Give the cluster a name, enable logging(this will be very useful to troubleshoot in case of failures) and select 'Cluster' in launch mode. 
-*In software configuration, select Spark from the Applications list. 
-*If you have not created a an EC2 key-pair yet, create one, download it and enter its name here. Select default permissions and then go ahead and click on 'Create Cluster'.
+* Give the cluster a name, enable logging(this will be very useful to troubleshoot in case of exceptions) and select 'Cluster' in launch mode. 
+* In software configuration, select Spark from the Applications list. 
+* If you have not created a an EC2 key-pair yet, create one, download it and enter its name here. Select default permissions and then go ahead and click on 'Create Cluster'.
 
 You will now be directed to this page.
-![Cluster Details](http://i.imgur.com/kBcg4aO.png)
+![Cluster Details](http://i.imgur.com/7EQguTV.png)
 
-The cluster remains in the 'Starting' state for about 10 - 15 minutes. Once the cluster is ready for use, the status will change to 'Waiting'. 
+The cluster remains in the 'Starting' state for about 10 - 15 minutes. Once the cluster is ready for use, the status will change to 'Waiting'. The cluster is now ready to use and we can move on to uploading our data to S3.
+
+##Uploadig data
+
+On your AWS console, from the Services dashboard, select S3 and you should see a S3 bucket here. It is the same bucket that is going to store logs for your cluster. Click on the S3 bucket, right click select 'Create Folder'. Give this folder a name (e.g 'audio_data'). Click on the folder name, from the Actions drop down, select upload and assuming you have the audioscrobbler dataset stored locally on your machine, click on 'Add files' and upload these to the folder you just created on the bucket.
+
+![S3 Bucket](http://i.imgur.com/DbzTwy7.png)
+
+
+##Deploying Code
 
 
 
+
+##Submitting Job
 
 
 
