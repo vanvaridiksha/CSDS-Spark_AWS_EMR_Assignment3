@@ -16,7 +16,7 @@ AWS offers an easy to use dashboard for creating and launching a cluster and sub
 
 * Give the cluster a name, enable logging(this will be very useful to troubleshoot in case of exceptions) and select 'Cluster' in launch mode. 
 * In software configuration, select Spark from the Applications list. 
-* If you have not created a an EC2 key-pair yet, create one, download it and enter its name here. Select default permissions and then go ahead and click on 'Create Cluster'.
+* If you have not created an EC2 key-pair yet, create one, download it and enter its name here. Select default permissions and then go ahead and click on 'Create Cluster'.
 
 You will now be directed to this page.
 ![Cluster Details](http://i.imgur.com/7EQguTV.png)
@@ -39,7 +39,7 @@ OR
 
 * ssh hadoop@<public dns of master> --key-pair-file <.pem file name>
 
-Once you have sshed into your master node, create a new folder, say python_code and cd into it. Create a new file here by using the vi command, copy paste you recommendation system code here and save it. The code is now ready to be used by all the nodes in your cluster. Make sure to change the paths to all data files in your code. The paths should now point to the folder you created in the S3 bucket(ed. "s3://bucket_name/audiodata/artist_data.txt").  Let us now see how to submit a job to this cluster. 
+Once you have sshed into your master node, create a new folder, say python_code and cd into it. Create a new file here by using the vi command, copy paste your recommendation system code here and save it. The code is now ready to be used by all the nodes in your cluster. Make sure to change the paths to all data files in your code. The paths should now point to the folder you created in the S3 bucket(ed. "s3://bucket_name/audiodata/artist_data.txt").  Let us now see how to submit a job to this cluster. 
 
 ##Submitting Job
 
