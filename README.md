@@ -53,4 +53,4 @@ Click on Add and refresh the page to see if the step was successfully added. The
 
 ![Logs](http://i.imgur.com/Q3miV9F.png)
 
-You can check controller/stderr/stdout logs to troubleshoot. 
+If the status of your step changes to Completed after about 10 minutes, you are done. If the step fails, you can check controller/stderr/stdout logs to troubleshoot. 
