@@ -1,4 +1,4 @@
-#CSDS-Spark_AWS_EMR_Assignment3
+#Runnin a Spark - Python script on a 3 node AWS EMR cluster
 
 In this assignment, you will be running the same recommendation system that you built for AudioScrobbler Data but on a 3-node AWS-EMR cluster. You can work in teams of 4 to complete this assignment. The assignment is due 12th May 11:59pm.
 
