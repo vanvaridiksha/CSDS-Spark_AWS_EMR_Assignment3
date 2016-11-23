@@ -1,6 +1,10 @@
-#Running a Spark - Python script on a 3 node AWS EMR cluster
+#Running a Spark - Python script on a 3 node AWS EMR cluster (Part 1)
 
-In this assignment, you will be running the same recommendation system that you built for AudioScrobbler Data but on a 3-node AWS-EMR cluster. You can work in teams of 4 to complete this assignment. The assignment is due 12th May 11:59pm.
+This assignment is based on the 3rd chapter of the book - 'Advanced Big Data Analytics with Spark'. You can find a copy of the book here - https://drive.google.com/file/d/0B5BGwUuGBNtNQzByU0JwX29ycTQ/view.
+
+In this assignment, you will be required to build a recommendation system using Spark and MLib using a dataset published by AudioScrobbler. This data is 500MB uncompressed and can be downloaded here - http://www-etud.iro.umontreal.ca/~bergstrj/audioscrobbler_data.html
+
+You can glance through the chapter and understand how to build the recommendation system. The chapter will walk you through Scala code; however; you are expected to code in Python. You will be running your recommendation system on a 3-node AWS-EMR cluster. You can work in teams of 2 to complete this assignment. The assignment is due 12th December 11:59pm.
 
 
 ##Setup
